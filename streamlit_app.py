@@ -34,7 +34,7 @@ def run_query(query):
         cur.execute(query)
         return cur.fetchall()
 
-rows = run_query("SELECT * from STREAMLIT_INTEGRATION;")
+rows = run_query("SELECT * from TIMESERIES_IGNITION_VIZ;")
 
 # Print results.
 for row in rows:
