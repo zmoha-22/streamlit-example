@@ -1,3 +1,4 @@
+-r https://github.com/snowflakedb/snowflake-connector-python/blob/main/tested_requirements/requirements_37.reqs
 altair
 pandas
 streamlit
