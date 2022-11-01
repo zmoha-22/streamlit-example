@@ -34,7 +34,7 @@ def run_query(query):
         cur.execute(query)
         return cur.fetchall()
 
-rows = run_query("SELECT * from mytable;")
+rows = run_query("SELECT * from STREAMLIT_INTEGRATION;")
 
 # Print results.
 for row in rows:
