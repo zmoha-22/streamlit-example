@@ -38,7 +38,7 @@ rows = run_query("SELECT * from TIMESERIES_IGNITION_VIZ;")
 
 # Print results.
 for row in rows:
-    st.write(f"{row[0]} Machine, On Date ->{row[1]}, Lot # ->{row [2]}, Count ->{row [3]}, Status ->{row [4]}")
+    st.write(f"{row[0]} Machine,  On Date = {row[1]},  Lot # = {row [2]}, Count = {row [3]},  Status = {row [4]}")
 #     st.subheader('Number of pickups by hour')
 #     hist_values = np.histogram(
 #     data[DATE_COLUMN].dt.hour, bins=24, range=(0,24))[0]
