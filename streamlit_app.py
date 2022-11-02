@@ -38,7 +38,7 @@ rows = run_query("SELECT * from TIMESERIES_IGNITION_VIZ;")
 
 # Print results.
 for row in rows:
-    st.write(f"{row[0]} Machine on :{row[1]}: has :{row 2}: Passed/Failed Processed")
+    st.write(f"{row[0]} Machine on :{row[1]}: has :{row [2]}: Passed/Failed Processed")
 #     st.subheader('Number of pickups by hour')
 #     hist_values = np.histogram(
 #     data[DATE_COLUMN].dt.hour, bins=24, range=(0,24))[0]
