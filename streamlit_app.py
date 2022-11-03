@@ -42,4 +42,4 @@ for row in rows:
     st.write(f"{row[0]} Machine,  On Date = {row[1]},  Lot # = {row [2]}, Count = {row [3]},  Status = {row [4]}")
     st.subheader('Number of Pass Count')
     hist_values = np.histogram(
-    row[1], bins=10, range=(0,10))[0]
+    row[1], bins=10, range=(0,5))[0]
